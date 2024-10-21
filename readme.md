@@ -15,8 +15,8 @@ Lista dostępnych modeli w api: `https://docs.perplexity.ai/guides/model-cards`
 
 1. Sklonuj repozytorium:
     ```sh
-    git clone https://github.com/akowynia/csv_perplexity.git
-    cd csv_perplexity
+    git clone https://github.com/akowynia/perplexity_api_csv.git
+    cd perplexity_api_csv
     ```
 
 2. Zainstaluj wymagane biblioteki:
