@@ -35,7 +35,7 @@ Lista dostępnych modeli w api: `https://docs.perplexity.ai/guides/model-cards`
     - Wprowadź klucz API, jeśli plik konfiguracyjny nie istnieje.
     - Podaj ścieżkę do pliku tekstowego, w którym mają być zapisywane wyniki.
     - Podaj prompt do użycia w zapytaniach do API.
-    - Podaj ścieżkę do pliku CSV z pytaniami.
+    - Podaj ścieżkę do pliku CSV z pytaniami. Format pliku csv: Nr_pytania;Zapytanie
 
 ## Pliki
 
