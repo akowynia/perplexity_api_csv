@@ -1,6 +1,7 @@
 import csv
 import time
 from get_perplexity import get_perplexity
+import os
 
 def read_csv_file(file_path, save_path, prompt):
     """
@@ -21,7 +22,7 @@ def read_csv_file(file_path, save_path, prompt):
 
             # Format the output message
             form = "***\n **" + row[1] + "**" + '\n\n' + message + '\n ***'
-            with open(save_path, 'a') as output_file:
+            with open(save_path+".txt", 'a') as output_file:
                 output_file.write(form + '\n')
 
 def create_txt_file_if_not_exists(save_path):
@@ -32,7 +33,11 @@ def create_txt_file_if_not_exists(save_path):
         save_path (str): The path to the text file to be created.
     """
     try:
-        with open(save_path, 'x') as file:
+        # Remove the file extension if it exists
+        save_path = os.path.splitext(save_path)[0]
+
+
+        with open(save_path+".txt", 'x') as file:
             pass  # File created successfully
     except FileExistsError:
         pass  # File already exists, do nothing
