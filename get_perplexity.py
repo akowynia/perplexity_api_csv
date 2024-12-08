@@ -11,7 +11,7 @@ def get_perplexity(text, prompt):
 
         # Read the API key from the configuration file
         api_key = read_config(config_file)
-        print(f"API Key: {api_key}")
+        
 
         # URL for the Perplexity AI API endpoint
         url = "https://api.perplexity.ai/chat/completions"
