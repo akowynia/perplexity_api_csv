@@ -1,7 +1,7 @@
 # Perplexity AI API csv
 
 Ten projekt integruje się z API Perplexity AI, aby przetwarzać zapytania masowo z pliku csv i uzyskiwać odpowiedzi na podstawie podanych promptów.
-Wybrany model `llama-3.1-sonar-small-128k-chat`, można zmienić w 21 linii w pliku: `get_perplexity.py`
+Wybrany model `sonar`, można zmienić w 21 linii w pliku: `get_perplexity.py`
 Lista dostępnych modeli w api: `https://docs.perplexity.ai/guides/model-cards`
 
 ## Struktura projektu
@@ -57,7 +57,6 @@ Lista dostępnych modeli w api: `https://docs.perplexity.ai/guides/model-cards`
 - Python 3.x
 - Biblioteki wymienione w `requirements.txt`
 
-
 ## Licencja
 
-Ten projekt jest licencjonowany na warunkach licencji MIT. 
+Ten projekt jest licencjonowany na warunkach licencji MIT.

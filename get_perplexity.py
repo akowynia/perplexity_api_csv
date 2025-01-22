@@ -17,8 +17,12 @@ def get_perplexity(text, prompt):
         url = "https://api.perplexity.ai/chat/completions"
 
         # Payload for the API request
+        
         payload = {
-            "model": "llama-3.1-sonar-small-128k-chat",  # Model to use
+            #model llama are deprecated and not available , please check the available models in the documentation on https://docs.perplexity.ai/guides/model-cards
+            #"model": "llama-3.1-sonar-small-128k-chat",  # Model to use
+            "model": "sonar",  # Model to use
+            
             "messages": [
                 {
                     "role": "system",
